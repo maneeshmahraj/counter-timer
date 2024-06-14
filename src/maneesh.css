@@ -1,0 +1,148 @@
+*
+{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+nav
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+   background-color:lime;
+   /* background: linear-gradient(lime,rgb(5, 240, 220)); */
+}
+nav .logo
+{
+    
+    font-size: 40px;
+    align-items: center;
+    margin: 0px 40px;
+    line-height: 70px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    color:rgb(44, 21, 21);
+    width: 30%;
+}
+nav ul 
+{
+   display: flex;
+   margin: 20px 0px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li{
+    margin: 0px 20px;
+    list-style-type: none;
+}
+.link
+{
+    text-decoration: none;
+    color:white;
+}
+.link:hover
+{
+    color: black;
+}
+
+
+@media(max-width:995px)
+{
+       nav ul 
+       {
+        font-size: 18px;
+        margin: 10px 5px;
+        flex-wrap: wrap;
+       }
+}
+@media (max-width:895px)
+{
+    .bar2{
+        display: block;
+        margin-right: 20px;
+    }
+    nav ul
+    {
+       top:65px;
+       left:0px;
+       position: absolute;
+       display: block;  
+       height: 100vh;
+       background-color: skyblue;
+       width: 100%;
+       transition: all .5s;
+    }
+    nav ul li
+    {
+        margin: 20px;
+        display: block;
+    }
+    .link:hover{
+        color: pink;
+    }
+    
+}
+
+.container 
+{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.container h1
+{
+    color: lime;
+}
+.counter-items
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-box
+{
+    display: flex;
+    margin: 10px 20px;
+}
+.input-box input
+{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+    outline: none;
+    justify-content: center;
+}
+.btn-box button
+{
+    height: 35px;
+    width: 80px;
+    background-color: purple;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+}
+.items
+{
+    display: flex;
+    font-size: 70px;
+    color: lime;
+    text-align: center;
+    justify-content: center;
+}
+.items-btn button
+{
+    
+    height: 35px;
+    width: 80px;
+    background-color: purple;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 0px 10px;
+}
